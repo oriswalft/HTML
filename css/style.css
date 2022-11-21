@@ -1,0 +1,36 @@
+@font-face {
+    font-family: VanillaWave;
+    src: url(VanillaWave.ttf);
+
+}
+h1{
+    font-family: VanillaWave;
+    font-size: 50px;
+    text-decoration: underline;
+    font-style: italic;
+    text-align: center;
+    
+}
+
+
+label{
+    color:palevioletred;
+    font-weight: bold;
+}
+
+body {
+    background-color: crimson;
+    background-image: url(../img/pikAH.png);
+    background-repeat: 	no-repeat;
+    background-size: cover;
+
+}
+.rectangle{ 
+    width: 30%;
+    height: 100px;
+    background-color: chartreuse;
+    text-align: center;
+    margin-bottom: auto;
+    justify-content: align;
+    flex-direction: row;
+}

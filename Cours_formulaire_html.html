@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Les formulaire </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Formulaire d'inscription</h1>
+    <!-- Les methodes possibles sont GET et POST -->
+    <form action="traitement.php" method="post">
+        <label for="login"> Login </label>
+        <input type="text" placeholder="Votre login" required id="login"> <br>
+        <label for="mdp">Mot de passe : </label>
+        <input type="password" id="mdp" name="mdp"><br>
+        <label for="adresse mail"> Adresse mail </label>
+        <input type="email" id="email" required name="Adresse mail"><br>
+        <label for="Pays">Votre Pays </label>
+        <select name="'Pays" id="Pays">
+            <option value="France">France</option>
+            <option value="Angleterre">Angleterre</option>
+            <option value="Allemagne">Allemagne</option>
+        </select>
+        <fieldset>
+            <legend>Choisissez votre genre</legend>
+            <input type="radio" id="Femme" name="genre">
+            <label for="Femme">Femme</label><br>
+            <input type="radio" id="Homme" name="genre">
+            <label for="Homme">Homme</label><br>
+            <input type="radio" id="Autre" name="genre">
+            <label for="Autre">Autre</label>
+        </fieldset>
+        <label for="story">Présentation</label>
+        <textarea name="Présentation" rows="10" cols="250">
+        </textarea>
+        <fieldset>
+            <legend>Choisissez votre préférence </legend>
+            <input type="checkbox" id="mail promo" name="mail ">
+            <label for="mail promo">mail promo</label>
+            <input type="checkbox" id="mail publicitaire" name="mail ">
+            <label for="mail publicitaire">mail publicitaire</label>
+        </fieldset>
+        <input type="submit" value="Se connecter">
+    </form>
+    <div class="rectangle"></div> 
+    <div class="rectangle"></div>
+    <div class="rectangle"></div>
+    
+</body>
+
+</html>
